@@ -1,3 +1,87 @@
+/* color scheme from coolors.co */
+
+/* Used the example website for help w/ naviagation bar */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  overflow: hidden;
+  font-size: 18px;
+  background-color: #0EB1D2;
+  font-family: Courier New;
+}
+
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  color: #F7FFF7;
+  text-align: center;
+  padding: 10px 85px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #08605F;
+}
+
+/* Home page/basic titling */
+
 body {
+  background-color: #FFB7C3
+  
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family:Courier New;
+  color: #F7FFF7;
+  text-decoration: overline;   
+}
+
+h2 {
+  margin:5px;
+  color: #F7FFF7;
+  background-color: #FBB13C;
+  font-size: 20px;
+  font-family:Courier New;
+  border-style: double; 
+  text-align: center;
+}
+
+/* Classes */ 
+
+h3{
+   color: #F7FFF7;
+   font-family:Courier New;
+  text-align: center; 
+  background-color: #1DC071
+}
+
+table{
+  width: 100%;
+  border: solid #F7FFF7;
+  border-collapse: collapse;
+  color: #F7FFF7;
+  font-family:Courier New;
+
+ 
+}
+table, th, td{
+  height: 30px;
+  border:solid #F7FFF7;
+}
+
+tr:nth-child(odd){
+  background-color: #7F7CAF;
+}
+tr:nth-child(even){
+  background-color: #3C7A89;
 
 }
+
